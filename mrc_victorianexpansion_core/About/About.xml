@@ -5,7 +5,7 @@
     <author>MaroChunagon</author>
     <!--<url></url>-->
     <description>hoge hoge</description>
-    <supportedtVersions>
+    <supportedVersions>
       <li>1.6</li>
-    </supportedtVersions>
+    </supportedVersions>
   </ModMetaData>
