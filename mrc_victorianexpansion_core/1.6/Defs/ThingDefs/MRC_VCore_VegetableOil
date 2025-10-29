@@ -1,21 +1,32 @@
-<ThingDef ParentName="PlantFoodRawBase">
-<defName>MRC_VCore_VegetableOil</defName>
-<label>Vegetable Oil</label>
-<description>Oil extracted from seeds or other parts of plants.</description>
-<graphicData>
-  <texPath>Things/Item/Resource/VegetableOil</texPath>
-  <graphicClass>Graphic_StackCount</graphicClass>
-</graphicData>
-<stackLimit>75</stackLimit>
-<healthAffectsPrice>true</healthAffectsPrice>
-<statBases>
-  <MaxHitPoints>100</MaxHitPoints>
-  <MarketValue>2</MarketValue>
-  <Mass>0.024</Mass>
-  <Flammability>0.6</Flammability>
-  <DeteriorationRate>0.5</DeteriorationRate>
-</statBases>
-<intricate>true</intricate>
-<thingCategories>
-  <li>Manufactured</li>
-</thingCategories>
+<?xml version="1.0" encoding="utf-8" ?>
+<defs>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>MRC_VCore_VegetableOil</defName>
+    <label>Vegetable Oil</label>
+    <description>Oil extracted from seeds or other parts of plants.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/VegetableOil</texPath>
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>2</MarketValue>
+      <Mass>0.024</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+</defs>
