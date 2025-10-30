@@ -26,8 +26,5 @@
       </li>
     </comps>
     <intricate>true</intricate>
-    <thingCategories>
-      <li>PlantFoodRaw</li>
-    </thingCategories>
   </ThingDef>
 </Defs>
