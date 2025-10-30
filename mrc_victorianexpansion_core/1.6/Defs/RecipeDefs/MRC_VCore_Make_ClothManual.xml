@@ -32,10 +32,12 @@
     </fixedIngredientFilter>
     <products>
       <li>
-        <Cloth>5</Cloth>
+        <thingDef>Cloth</thingDef>
+        <count>5</count>
       </li>
       <li>
-        <MRC_VCore_VegetableOil>1</MRC_VCore_VegetableOil>
+        <thingDef>MRC_VCore_VegetableOil</thingDef>
+        <count>1</count>
       </li>
     </products>
   </RecipeDef>
@@ -61,10 +63,12 @@
     </fixedIngredientFilter>
     <products>
       <li>
-        <Cloth>25</Cloth>
+        <thingDef>Cloth</thingDef>
+        <count>25</count>
       </li>
       <li>
-        <MRC_VCore_VegetableOil>7</MRC_VCore_VegetableOil>
+        <thingDef>MRC_VCore_VegetableOil</thingDef>
+        <count>7</count>
       </li>
     </products>
   </RecipeDef>
