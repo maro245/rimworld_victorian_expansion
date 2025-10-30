@@ -25,7 +25,7 @@
     <recipeUsers>
       <li>CraftingSpot</li>
     </recipeUsers>
-  <RecipeDef>
+  </RecipeDef>
 
   <RecipeDef ParentName="MRC_VCore_Make_ClothManual5">
     <defName>MRC_VCore_Make_ClothManual25</defName>
