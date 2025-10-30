@@ -31,8 +31,8 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <li><Cloth>5</Cloth></li>
-      <li><MRC_VCore_VegetableOil>1</MRC_VCore_VegetableOil></li>
+      <Cloth>5</Cloth>
+      <MRC_VCore_VegetableOil>1</MRC_VCore_VegetableOil>
     </products>
   </RecipeDef>
 
