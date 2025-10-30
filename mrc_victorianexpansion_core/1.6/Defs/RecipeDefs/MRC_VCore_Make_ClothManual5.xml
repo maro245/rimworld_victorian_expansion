@@ -1,50 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
-  <RecipeDef>
-    <defName>MRC_VCore_Make_ClothManual5</defName>
-    <label>Made cloth and vegetable oil from cotton pods</label>
-    <description>Makes cloth and vegetable oil from cotton pods.</description>
-    <jobString>Making cloth and vegetable oil.</jobString>
-    <workAmount>307</workAmount>
-    <products>
-      <li>
-        <thingDef>Cloth</thingDef>
-        <count>5</count>
-      </li>
-      <li>
-        <thingDef>MRC_VCore_VegetableOil</thingDef>
-        <count>1</count>
-      </li>
-    </products>
-    <ingredients>
-      <li>
-        <thingDef>MRC_VCore_CottonPod</thingDef>
-        <count>5</count>
-      </li>
-   </ingredients>
-    <recipeUsers>
-      <li>CraftingSpot</li>
-    </recipeUsers>
-  </RecipeDef>
+<Defs>
+  <RecipeDefs>
+    <RecipeDef>
+      <defName>MRC_VCore_Make_ClothManual5</defName>
+      <label>Made cloth and vegetable oil from cotton pods</label>
+      <description>Makes cloth and vegetable oil from cotton pods.</description>
+      <jobString>Making cloth and vegetable oil.</jobString>
+      <workAmount>307</workAmount>
+      <products>
+        <li>
+          <thingDef>Cloth</thingDef>
+          <count>5</count>
+        </li>
+        <li>
+          <thingDef>MRC_VCore_VegetableOil</thingDef>
+          <count>1</count>
+        </li>
+      </products>
+      <ingredients>
+        <li>
+          <thingDef>MRC_VCore_CottonPod</thingDef>
+          <count>5</count>
+        </li>
+     </ingredients>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+    </RecipeDef>
 
-  <RecipeDef ParentName="MRC_VCore_Make_ClothManual5">
-    <defName>MRC_VCore_Make_ClothManual25</defName>
-    <workAmount>1535</workAmount>
-    <products>
-      <li>
-        <thingDef>Cloth</thingDef>
-        <count>25</count>
-      </li>
-      <li>
-        <thingDef>MRC_VCore_VegetableOil</thingDef>
-        <count>7</count>
-      </li>
-    </products>
-    <ingredients>
-      <li>
-        <thingDef>MRC_VCore_CottonPod</thingDef>
-        <count>25</count>
-      </li>
-   </ingredients>
-  </RecipeDef>
-</RecipeDefs>
+    <RecipeDef ParentName="MRC_VCore_Make_ClothManual5">
+      <defName>MRC_VCore_Make_ClothManual25</defName>
+      <workAmount>1535</workAmount>
+      <products>
+        <li>
+          <thingDef>Cloth</thingDef>
+          <count>25</count>
+        </li>
+        <li>
+          <thingDef>MRC_VCore_VegetableOil</thingDef>
+          <count>7</count>
+        </li>
+      </products>
+      <ingredients>
+        <li>
+          <thingDef>MRC_VCore_CottonPod</thingDef>
+          <count>25</count>
+        </li>
+     </ingredients>
+    </RecipeDef>
+  </RecipeDefs>
+</Defs>
