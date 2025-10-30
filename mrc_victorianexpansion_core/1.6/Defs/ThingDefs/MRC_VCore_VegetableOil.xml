@@ -6,6 +6,7 @@
     <description>Oil extracted from seeds or other parts of plants.</description>
     <graphicData>
       <texPath>Things/Item/Resource/PlantFoodRaw/VegetableOil</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <stackLimit>75</stackLimit>
     <statBases>
