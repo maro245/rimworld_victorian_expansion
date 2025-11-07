@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="BaseHumanMakableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>MRC_VCore_Gun_FlintlockMusket</defName>
     <label>flintlock musket</label>
     <description>A standard steamworld musket.</description>
