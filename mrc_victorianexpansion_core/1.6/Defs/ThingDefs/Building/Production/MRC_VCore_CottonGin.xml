@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <ThingDef ParentName="BenchBase">
-    <defName>CottonGin</defName>
+    <defName>MRC_VCore_CottonGin</defName>
     <label>cotton gin</label>
     <description>A workbench for manually producing cloth from harvested cotton pods, separating their fibers from their seeds.</description>
     <thingClass>Building_WorkTable</thingClass>
@@ -47,16 +47,6 @@
       <li>ITab_Bills</li>
     </inspectorTabs>
     <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <shortCircuitInRain>true</shortCircuitInRain>
-        <basePowerConsumption>350</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Glower">
-        <glowRadius>5</glowRadius>
-        <glowColor>(73,123,138,0)</glowColor>
-      </li>
       <li Class="CompProperties_AffectedByFacilities">
         <linkableFacilities>
           <li>ToolCabinet</li>
