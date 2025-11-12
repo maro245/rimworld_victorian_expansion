@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Things/Building/Production/CottonGin</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(1.0,1.0)</drawSize>
+      <drawSize>(2.0,2.0)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
