@@ -6,7 +6,7 @@
     <description>A workbench for manually producing cloth from harvested cotton pods, separating their fibers from their seeds.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Building/Production/CottonGin</texPath>
+      <texPath>Things/Building/Production/CottonGin/CottonGin</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1.0,1.0)</drawSize>
       <damageData>
