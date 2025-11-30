@@ -16,7 +16,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
-    <fillPercent>7.5</fillPercent>
+    <fillPercent>0.75</fillPercent>
     <hasInteractionCell>true</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <designationCategory>Production</designationCategory>
@@ -28,7 +28,7 @@
     <uiIconScale>1.67</uiIconScale>
     <minifiedDef>MinifiedThing</minifiedDef>
     <building>
-      <uninstallWork>1800</uninstallWork>
+      <uninstallWork>3600</uninstallWork>
       <buildingTags>
         <li>Production</li>
       </buildingTags>
@@ -38,9 +38,13 @@
       <li>BuildingsProduction</li>
     </thingCategories>
     <costList>
-      <Steel>100</Steel>
+      <Wood>300</Wood>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>300</costStuffCount>
     <placeWorkers>
       <li>PlaceWorker_DeepDrill</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
