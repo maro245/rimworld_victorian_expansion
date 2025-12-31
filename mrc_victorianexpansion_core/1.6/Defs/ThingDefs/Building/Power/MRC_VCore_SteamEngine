@@ -7,7 +7,7 @@
     <thingClass>Building</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
-      <texPath>Things/Building/Power/SteamEngine_Idle/SteamEngine_Idle</texPath>
+      <texPath>Things/Building/Power/SteamEngine/SteamEngine_Idle</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
       <drawSize>(5,5)</drawSize>
@@ -16,7 +16,7 @@
         <offset>(0,0,1)</offset>
       </shadowData>
     </graphicData>
-		<uiIconPath>Things/Building/Power/SteamEngine_Idle/SteamEngine_Idle_MenuIcon</uiIconPath>
+		<uiIconPath>Things/Building/Power/SteamEngine/SteamEngine_Idle_MenuIcon</uiIconPath>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <fillPercent>0.9</fillPercent>
