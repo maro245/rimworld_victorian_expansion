@@ -1,1 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
 
+  <RecipeDef ParentName="CookMealSurvival">
+    <defName>MRC_MR_CookMRE</defName>
+    <label>cook MRE</label>
+    <description>Prepare an MRE from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking MRE.</jobString>
+    <products>
+      <MRC_MR_MilitaryRationUS>1</MRC_MR_MilitaryRationUS>
+    </products>
+  </RecipeDef>
+</Defs>
