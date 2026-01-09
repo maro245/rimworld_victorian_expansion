@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingDef ParentName="MealBase">
+  <ThingDef ParentName="MealSurvivalPack">
     <defName>MRC_MR_MilitaryRationUS</defName>
     <label>military ration (MRE)</label>
     <description>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
     <graphicData>
       <texPath>MilitaryRationUS</texPath>
+      <graphicClass>Graphic_Simple</graphicClass>
+    </graphicData>
+  </ThingDef>
+  <ThingDef ParentName="MealSurvivalPack">
+    <defName>MRC_MR_MilitaryRationUS</defName>
+    <label>military ration (MRE, vanillalike)</label>
+    <description>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
+    <graphicData>
+      <texPath>MilitaryRationUSAlt</texPath>
       <graphicClass>Graphic_Simple</graphicClass>
     </graphicData>
   </ThingDef>
