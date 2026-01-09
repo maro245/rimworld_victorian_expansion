@@ -9,8 +9,9 @@
       <graphicClass>Graphic_Simple</graphicClass>
     </graphicData>
   </ThingDef>
+  
   <ThingDef ParentName="MealSurvivalPack">
-    <defName>MRC_MR_MilitaryRationUS</defName>
+    <defName>MRC_MR_MilitaryRationUSAlt</defName>
     <label>military ration (MRE, vanillalike)</label>
     <description>A high-quality packaged meal, manufactured for use in survival situations. While it never rots, it can still deteriorate if left outside. Great for traveling.</description>
     <graphicData>
@@ -35,6 +36,25 @@
     <jobString>Cooking 4 MRE.</jobString>
     <products>
       <MRC_MR_MilitaryRationUS>4</MRC_MR_MilitaryRationUS>
+    </products>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealSurvival">
+    <defName>MRC_MR_CookMREAlt</defName>
+    <label>cook MRE (vanillalike)</label>
+    <description>Prepare an MRE from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking MRE.</jobString>
+    <products>
+      <MRC_MR_MilitaryRationUSAlt>1</MRC_MR_MilitaryRationUSAlt>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="CookMealSurvivalBulk">
+    <defName>MRC_MR_CookMREAltBulk</defName>
+    <label>cook 4 MRE (vanillalike)</label>
+    <description>Prepare 4 MRE from a combination of meat and plant ingredients. Much of the ingredients are wasted in the preservation process.</description>
+    <jobString>Cooking 4 MRE.</jobString>
+    <products>
+      <MRC_MR_MilitaryRationUSAlt>4</MRC_MR_MilitaryRationUSAlt>
     </products>
   </RecipeDef>
 </Defs>
