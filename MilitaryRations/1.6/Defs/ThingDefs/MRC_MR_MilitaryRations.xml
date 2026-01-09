@@ -88,6 +88,11 @@
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
     <displayPriority>1411</displayPriority>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>
   </RecipeDef>
 
   <RecipeDef ParentName="CookMealBase">
@@ -129,5 +134,10 @@
     </skillRequirements>
     <researchPrerequisite>PackagedSurvivalMeal</researchPrerequisite>
     <displayPriority>1412</displayPriority>
+    <recipeUsers>
+      <li>ElectricStove</li>
+      <li>FueledStove</li>
+      <li>Campfire</li>
+    </recipeUsers>	
   </RecipeDef>
 </Defs>
